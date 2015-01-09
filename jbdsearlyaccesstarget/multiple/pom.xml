@@ -3,8 +3,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.jboss.tools.targetplatforms</groupId>
-    <artifactId>jbtearlyaccess</artifactId>
+    <groupId>com.jboss.devstudio.targetplatforms</groupId>
+    <artifactId>jbdsearlyaccess</artifactId>
     <version>4.50.0.Alpha1-SNAPSHOT</version>
   </parent>
   <artifactId>jbtearlyaccess-multiple</artifactId>
@@ -37,13 +37,13 @@
               <sourceTargetArtifacts>
                 <item>
                   <groupId>org.jboss.tools.targetplatforms</groupId>
-                  <artifactId>jbosstools-multiple</artifactId>
+                  <artifactId>jbdevstudio-multiple</artifactId>
                   <version>${JBTCoreTPVersion}</version>
-                  <classifier>jbosstools-multiple</classifier>
+                  <classifier>jbdevstudio-multiple</classifier>
                 </item>
               </sourceTargetArtifacts>
               <sourceTargetFiles>
-                <item>${basedir}/../../jbtcentraltarget/multiple/jbtcentral-multiple.target</item>
+                <item>${basedir}/../../jbdscentraltarget/multiple/jbdscentral-multiple.target</item>
                 <item>${basedir}/${project.artifactId}.target</item>
               </sourceTargetFiles>
               <outputFile>${project.build.directory}/${project.artifactId}-full.target</outputFile>

@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.jboss.tools.central</groupId>
+		<groupId>com.jboss.devstudio.central</groupId>
 		<artifactId>discovery</artifactId>
 		<version>4.3.0-SNAPSHOT</version>
 	</parent>
-	<groupId>org.jboss.tools.targetplatforms</groupId>
-	<artifactId>jbtearlyaccess</artifactId>
+	<groupId>com.jboss.devstudio.targetplatforms</groupId>
+	<artifactId>jbdsearlyaccess</artifactId>
 	<version>4.50.0.Alpha1-SNAPSHOT</version>
 	<name>JBoss Central Early Access Target Platforms</name>
 	<packaging>pom</packaging>

@@ -3,11 +3,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.jboss.tools.targetplatforms</groupId>
-    <artifactId>jbtcentral</artifactId>
+    <groupId>com.jboss.devstudio.targetplatforms</groupId>
+    <artifactId>jbdscentral</artifactId>
     <version>4.50.0.Alpha1-SNAPSHOT</version>
   </parent>
-  <artifactId>jbtcentral-multiple</artifactId>
+  <artifactId>jbdscentral-multiple</artifactId>
   <name>JBoss Central Core Multiple (Composite) Target Platform</name>
   <packaging>pom</packaging>
   <properties>
@@ -36,13 +36,13 @@
               <sourceTargetArtifacts>
                 <item>
                   <groupId>org.jboss.tools.targetplatforms</groupId>
-                  <artifactId>jbosstools-multiple</artifactId>
+                  <artifactId>jbdevstudio-multiple</artifactId>
                   <version>${JBTCoreTPVersion}</version>
-                  <classifier>jbosstools-multiple</classifier>
+                  <classifier>jbdevstudio-multiple</classifier>
                 </item>
               </sourceTargetArtifacts>
               <sourceTargetFiles>
-                <item>${basedir}/jbtcentral-multiple.target</item>
+                <item>${basedir}/jbdscentral-multiple.target</item>
               </sourceTargetFiles>
               <outputFile>${project.build.directory}/${project.artifactId}-full.target</outputFile>
             </configuration>
